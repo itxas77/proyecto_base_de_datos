@@ -2,12 +2,12 @@
 -- PostgreSQL database dump
 --
 
-\restrict KtJyWZAshcxdrDYaEIeFlE9iWilecoVvL0tASVvgy3JhdpKIBWxxx8sewad0Pp3
+\restrict QcazxTcxNlJkNxE1BVUenbf9kaZv4Uy6eGvhmt81URK58bFj0wNfSSvNE1evGKX
 
 -- Dumped from database version 18.1 (Debian 18.1-1.pgdg12+2)
 -- Dumped by pg_dump version 18.1
 
--- Started on 2025-11-20 23:47:50
+-- Started on 2025-11-21 01:17:04
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -65,7 +65,7 @@ CREATE SEQUENCE public.campus_id_campus_seq
 ALTER SEQUENCE public.campus_id_campus_seq OWNER TO base_de_datos_bootcamp_user;
 
 --
--- TOC entry 3494 (class 0 OID 0)
+-- TOC entry 3482 (class 0 OID 0)
 -- Dependencies: 223
 -- Name: campus_id_campus_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: base_de_datos_bootcamp_user
 --
@@ -74,7 +74,7 @@ ALTER SEQUENCE public.campus_id_campus_seq OWNED BY public.campus.id_campus;
 
 
 --
--- TOC entry 236 (class 1259 OID 16515)
+-- TOC entry 234 (class 1259 OID 16515)
 -- Name: estudiantes; Type: TABLE; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -90,7 +90,7 @@ CREATE TABLE public.estudiantes (
 ALTER TABLE public.estudiantes OWNER TO base_de_datos_bootcamp_user;
 
 --
--- TOC entry 235 (class 1259 OID 16514)
+-- TOC entry 233 (class 1259 OID 16514)
 -- Name: estudiantes_id_estudiante_seq; Type: SEQUENCE; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -106,8 +106,8 @@ CREATE SEQUENCE public.estudiantes_id_estudiante_seq
 ALTER SEQUENCE public.estudiantes_id_estudiante_seq OWNER TO base_de_datos_bootcamp_user;
 
 --
--- TOC entry 3495 (class 0 OID 0)
--- Dependencies: 235
+-- TOC entry 3483 (class 0 OID 0)
+-- Dependencies: 233
 -- Name: estudiantes_id_estudiante_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -144,7 +144,7 @@ CREATE SEQUENCE public.modalidades_id_modalidad_seq
 ALTER SEQUENCE public.modalidades_id_modalidad_seq OWNER TO base_de_datos_bootcamp_user;
 
 --
--- TOC entry 3496 (class 0 OID 0)
+-- TOC entry 3484 (class 0 OID 0)
 -- Dependencies: 227
 -- Name: modalidades_id_modalidad_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: base_de_datos_bootcamp_user
 --
@@ -153,7 +153,7 @@ ALTER SEQUENCE public.modalidades_id_modalidad_seq OWNED BY public.modalidades.i
 
 
 --
--- TOC entry 240 (class 1259 OID 16553)
+-- TOC entry 238 (class 1259 OID 16553)
 -- Name: notas; Type: TABLE; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -168,7 +168,7 @@ CREATE TABLE public.notas (
 ALTER TABLE public.notas OWNER TO base_de_datos_bootcamp_user;
 
 --
--- TOC entry 239 (class 1259 OID 16552)
+-- TOC entry 237 (class 1259 OID 16552)
 -- Name: notas_id_nota_seq; Type: SEQUENCE; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -184,8 +184,8 @@ CREATE SEQUENCE public.notas_id_nota_seq
 ALTER SEQUENCE public.notas_id_nota_seq OWNER TO base_de_datos_bootcamp_user;
 
 --
--- TOC entry 3497 (class 0 OID 0)
--- Dependencies: 239
+-- TOC entry 3485 (class 0 OID 0)
+-- Dependencies: 237
 -- Name: notas_id_nota_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -193,7 +193,7 @@ ALTER SEQUENCE public.notas_id_nota_seq OWNED BY public.notas.id_nota;
 
 
 --
--- TOC entry 232 (class 1259 OID 16475)
+-- TOC entry 230 (class 1259 OID 16475)
 -- Name: profesores; Type: TABLE; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -210,7 +210,7 @@ CREATE TABLE public.profesores (
 ALTER TABLE public.profesores OWNER TO base_de_datos_bootcamp_user;
 
 --
--- TOC entry 231 (class 1259 OID 16474)
+-- TOC entry 229 (class 1259 OID 16474)
 -- Name: profesores_id_profesor_seq; Type: SEQUENCE; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -226,8 +226,8 @@ CREATE SEQUENCE public.profesores_id_profesor_seq
 ALTER SEQUENCE public.profesores_id_profesor_seq OWNER TO base_de_datos_bootcamp_user;
 
 --
--- TOC entry 3498 (class 0 OID 0)
--- Dependencies: 231
+-- TOC entry 3486 (class 0 OID 0)
+-- Dependencies: 229
 -- Name: profesores_id_profesor_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -235,7 +235,7 @@ ALTER SEQUENCE public.profesores_id_profesor_seq OWNED BY public.profesores.id_p
 
 
 --
--- TOC entry 234 (class 1259 OID 16499)
+-- TOC entry 232 (class 1259 OID 16499)
 -- Name: promociones; Type: TABLE; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -249,7 +249,7 @@ CREATE TABLE public.promociones (
 ALTER TABLE public.promociones OWNER TO base_de_datos_bootcamp_user;
 
 --
--- TOC entry 233 (class 1259 OID 16498)
+-- TOC entry 231 (class 1259 OID 16498)
 -- Name: promociones_id_promocion_seq; Type: SEQUENCE; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -265,8 +265,8 @@ CREATE SEQUENCE public.promociones_id_promocion_seq
 ALTER SEQUENCE public.promociones_id_promocion_seq OWNER TO base_de_datos_bootcamp_user;
 
 --
--- TOC entry 3499 (class 0 OID 0)
--- Dependencies: 233
+-- TOC entry 3487 (class 0 OID 0)
+-- Dependencies: 231
 -- Name: promociones_id_promocion_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -274,7 +274,7 @@ ALTER SEQUENCE public.promociones_id_promocion_seq OWNED BY public.promociones.i
 
 
 --
--- TOC entry 238 (class 1259 OID 16537)
+-- TOC entry 236 (class 1259 OID 16537)
 -- Name: proyectos; Type: TABLE; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -288,7 +288,7 @@ CREATE TABLE public.proyectos (
 ALTER TABLE public.proyectos OWNER TO base_de_datos_bootcamp_user;
 
 --
--- TOC entry 237 (class 1259 OID 16536)
+-- TOC entry 235 (class 1259 OID 16536)
 -- Name: proyectos_id_proyecto_seq; Type: SEQUENCE; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -304,50 +304,12 @@ CREATE SEQUENCE public.proyectos_id_proyecto_seq
 ALTER SEQUENCE public.proyectos_id_proyecto_seq OWNER TO base_de_datos_bootcamp_user;
 
 --
--- TOC entry 3500 (class 0 OID 0)
--- Dependencies: 237
+-- TOC entry 3488 (class 0 OID 0)
+-- Dependencies: 235
 -- Name: proyectos_id_proyecto_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
 ALTER SEQUENCE public.proyectos_id_proyecto_seq OWNED BY public.proyectos.id_proyecto;
-
-
---
--- TOC entry 230 (class 1259 OID 16463)
--- Name: roles; Type: TABLE; Schema: public; Owner: base_de_datos_bootcamp_user
---
-
-CREATE TABLE public.roles (
-    id_rol integer NOT NULL,
-    nombre_rol character varying(50) NOT NULL
-);
-
-
-ALTER TABLE public.roles OWNER TO base_de_datos_bootcamp_user;
-
---
--- TOC entry 229 (class 1259 OID 16462)
--- Name: roles_id_rol_seq; Type: SEQUENCE; Schema: public; Owner: base_de_datos_bootcamp_user
---
-
-CREATE SEQUENCE public.roles_id_rol_seq
-    AS integer
-    START WITH 1
-    INCREMENT BY 1
-    NO MINVALUE
-    NO MAXVALUE
-    CACHE 1;
-
-
-ALTER SEQUENCE public.roles_id_rol_seq OWNER TO base_de_datos_bootcamp_user;
-
---
--- TOC entry 3501 (class 0 OID 0)
--- Dependencies: 229
--- Name: roles_id_rol_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: base_de_datos_bootcamp_user
---
-
-ALTER SEQUENCE public.roles_id_rol_seq OWNED BY public.roles.id_rol;
 
 
 --
@@ -380,7 +342,7 @@ CREATE SEQUENCE public.verticales_id_vertical_seq
 ALTER SEQUENCE public.verticales_id_vertical_seq OWNER TO base_de_datos_bootcamp_user;
 
 --
--- TOC entry 3502 (class 0 OID 0)
+-- TOC entry 3489 (class 0 OID 0)
 -- Dependencies: 225
 -- Name: verticales_id_vertical_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: base_de_datos_bootcamp_user
 --
@@ -389,7 +351,7 @@ ALTER SEQUENCE public.verticales_id_vertical_seq OWNED BY public.verticales.id_v
 
 
 --
--- TOC entry 3273 (class 2604 OID 16432)
+-- TOC entry 3268 (class 2604 OID 16432)
 -- Name: campus id_campus; Type: DEFAULT; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -397,7 +359,7 @@ ALTER TABLE ONLY public.campus ALTER COLUMN id_campus SET DEFAULT nextval('publi
 
 
 --
--- TOC entry 3279 (class 2604 OID 16518)
+-- TOC entry 3273 (class 2604 OID 16518)
 -- Name: estudiantes id_estudiante; Type: DEFAULT; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -405,7 +367,7 @@ ALTER TABLE ONLY public.estudiantes ALTER COLUMN id_estudiante SET DEFAULT nextv
 
 
 --
--- TOC entry 3275 (class 2604 OID 16454)
+-- TOC entry 3270 (class 2604 OID 16454)
 -- Name: modalidades id_modalidad; Type: DEFAULT; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -413,7 +375,7 @@ ALTER TABLE ONLY public.modalidades ALTER COLUMN id_modalidad SET DEFAULT nextva
 
 
 --
--- TOC entry 3281 (class 2604 OID 16556)
+-- TOC entry 3275 (class 2604 OID 16556)
 -- Name: notas id_nota; Type: DEFAULT; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -421,7 +383,7 @@ ALTER TABLE ONLY public.notas ALTER COLUMN id_nota SET DEFAULT nextval('public.n
 
 
 --
--- TOC entry 3277 (class 2604 OID 16478)
+-- TOC entry 3271 (class 2604 OID 16478)
 -- Name: profesores id_profesor; Type: DEFAULT; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -429,7 +391,7 @@ ALTER TABLE ONLY public.profesores ALTER COLUMN id_profesor SET DEFAULT nextval(
 
 
 --
--- TOC entry 3278 (class 2604 OID 16502)
+-- TOC entry 3272 (class 2604 OID 16502)
 -- Name: promociones id_promocion; Type: DEFAULT; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -437,7 +399,7 @@ ALTER TABLE ONLY public.promociones ALTER COLUMN id_promocion SET DEFAULT nextva
 
 
 --
--- TOC entry 3280 (class 2604 OID 16540)
+-- TOC entry 3274 (class 2604 OID 16540)
 -- Name: proyectos id_proyecto; Type: DEFAULT; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -445,15 +407,7 @@ ALTER TABLE ONLY public.proyectos ALTER COLUMN id_proyecto SET DEFAULT nextval('
 
 
 --
--- TOC entry 3276 (class 2604 OID 16466)
--- Name: roles id_rol; Type: DEFAULT; Schema: public; Owner: base_de_datos_bootcamp_user
---
-
-ALTER TABLE ONLY public.roles ALTER COLUMN id_rol SET DEFAULT nextval('public.roles_id_rol_seq'::regclass);
-
-
---
--- TOC entry 3274 (class 2604 OID 16443)
+-- TOC entry 3269 (class 2604 OID 16443)
 -- Name: verticales id_vertical; Type: DEFAULT; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -461,7 +415,7 @@ ALTER TABLE ONLY public.verticales ALTER COLUMN id_vertical SET DEFAULT nextval(
 
 
 --
--- TOC entry 3472 (class 0 OID 16429)
+-- TOC entry 3462 (class 0 OID 16429)
 -- Dependencies: 224
 -- Data for Name: campus; Type: TABLE DATA; Schema: public; Owner: base_de_datos_bootcamp_user
 --
@@ -473,8 +427,8 @@ COPY public.campus (id_campus, nombre_campus) FROM stdin;
 
 
 --
--- TOC entry 3484 (class 0 OID 16515)
--- Dependencies: 236
+-- TOC entry 3472 (class 0 OID 16515)
+-- Dependencies: 234
 -- Data for Name: estudiantes; Type: TABLE DATA; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -535,7 +489,7 @@ COPY public.estudiantes (id_estudiante, nombre, email, id_promocion, id_campus) 
 
 
 --
--- TOC entry 3476 (class 0 OID 16451)
+-- TOC entry 3466 (class 0 OID 16451)
 -- Dependencies: 228
 -- Data for Name: modalidades; Type: TABLE DATA; Schema: public; Owner: base_de_datos_bootcamp_user
 --
@@ -547,8 +501,8 @@ COPY public.modalidades (id_modalidad, nombre_modalidad) FROM stdin;
 
 
 --
--- TOC entry 3488 (class 0 OID 16553)
--- Dependencies: 240
+-- TOC entry 3476 (class 0 OID 16553)
+-- Dependencies: 238
 -- Data for Name: notas; Type: TABLE DATA; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -817,8 +771,8 @@ COPY public.notas (id_nota, id_estudiante, id_proyecto, calificacion) FROM stdin
 
 
 --
--- TOC entry 3480 (class 0 OID 16475)
--- Dependencies: 232
+-- TOC entry 3468 (class 0 OID 16475)
+-- Dependencies: 230
 -- Data for Name: profesores; Type: TABLE DATA; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -837,8 +791,8 @@ COPY public.profesores (id_profesor, nombre, rol, id_vertical, id_campus, id_mod
 
 
 --
--- TOC entry 3482 (class 0 OID 16499)
--- Dependencies: 234
+-- TOC entry 3470 (class 0 OID 16499)
+-- Dependencies: 232
 -- Data for Name: promociones; Type: TABLE DATA; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -849,8 +803,8 @@ COPY public.promociones (id_promocion, nombre_promocion, fecha_inicio) FROM stdi
 
 
 --
--- TOC entry 3486 (class 0 OID 16537)
--- Dependencies: 238
+-- TOC entry 3474 (class 0 OID 16537)
+-- Dependencies: 236
 -- Data for Name: proyectos; Type: TABLE DATA; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -869,17 +823,7 @@ COPY public.proyectos (id_proyecto, nombre_proyecto, id_vertical) FROM stdin;
 
 
 --
--- TOC entry 3478 (class 0 OID 16463)
--- Dependencies: 230
--- Data for Name: roles; Type: TABLE DATA; Schema: public; Owner: base_de_datos_bootcamp_user
---
-
-COPY public.roles (id_rol, nombre_rol) FROM stdin;
-\.
-
-
---
--- TOC entry 3474 (class 0 OID 16440)
+-- TOC entry 3464 (class 0 OID 16440)
 -- Dependencies: 226
 -- Data for Name: verticales; Type: TABLE DATA; Schema: public; Owner: base_de_datos_bootcamp_user
 --
@@ -891,7 +835,7 @@ COPY public.verticales (id_vertical, nombre_vertical) FROM stdin;
 
 
 --
--- TOC entry 3503 (class 0 OID 0)
+-- TOC entry 3490 (class 0 OID 0)
 -- Dependencies: 223
 -- Name: campus_id_campus_seq; Type: SEQUENCE SET; Schema: public; Owner: base_de_datos_bootcamp_user
 --
@@ -900,8 +844,8 @@ SELECT pg_catalog.setval('public.campus_id_campus_seq', 2, true);
 
 
 --
--- TOC entry 3504 (class 0 OID 0)
--- Dependencies: 235
+-- TOC entry 3491 (class 0 OID 0)
+-- Dependencies: 233
 -- Name: estudiantes_id_estudiante_seq; Type: SEQUENCE SET; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -909,7 +853,7 @@ SELECT pg_catalog.setval('public.estudiantes_id_estudiante_seq', 52, true);
 
 
 --
--- TOC entry 3505 (class 0 OID 0)
+-- TOC entry 3492 (class 0 OID 0)
 -- Dependencies: 227
 -- Name: modalidades_id_modalidad_seq; Type: SEQUENCE SET; Schema: public; Owner: base_de_datos_bootcamp_user
 --
@@ -918,8 +862,8 @@ SELECT pg_catalog.setval('public.modalidades_id_modalidad_seq', 2, true);
 
 
 --
--- TOC entry 3506 (class 0 OID 0)
--- Dependencies: 239
+-- TOC entry 3493 (class 0 OID 0)
+-- Dependencies: 237
 -- Name: notas_id_nota_seq; Type: SEQUENCE SET; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -927,8 +871,8 @@ SELECT pg_catalog.setval('public.notas_id_nota_seq', 260, true);
 
 
 --
--- TOC entry 3507 (class 0 OID 0)
--- Dependencies: 231
+-- TOC entry 3494 (class 0 OID 0)
+-- Dependencies: 229
 -- Name: profesores_id_profesor_seq; Type: SEQUENCE SET; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -936,8 +880,8 @@ SELECT pg_catalog.setval('public.profesores_id_profesor_seq', 10, true);
 
 
 --
--- TOC entry 3508 (class 0 OID 0)
--- Dependencies: 233
+-- TOC entry 3495 (class 0 OID 0)
+-- Dependencies: 231
 -- Name: promociones_id_promocion_seq; Type: SEQUENCE SET; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -945,8 +889,8 @@ SELECT pg_catalog.setval('public.promociones_id_promocion_seq', 2, true);
 
 
 --
--- TOC entry 3509 (class 0 OID 0)
--- Dependencies: 237
+-- TOC entry 3496 (class 0 OID 0)
+-- Dependencies: 235
 -- Name: proyectos_id_proyecto_seq; Type: SEQUENCE SET; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -954,16 +898,7 @@ SELECT pg_catalog.setval('public.proyectos_id_proyecto_seq', 10, true);
 
 
 --
--- TOC entry 3510 (class 0 OID 0)
--- Dependencies: 229
--- Name: roles_id_rol_seq; Type: SEQUENCE SET; Schema: public; Owner: base_de_datos_bootcamp_user
---
-
-SELECT pg_catalog.setval('public.roles_id_rol_seq', 1, false);
-
-
---
--- TOC entry 3511 (class 0 OID 0)
+-- TOC entry 3497 (class 0 OID 0)
 -- Dependencies: 225
 -- Name: verticales_id_vertical_seq; Type: SEQUENCE SET; Schema: public; Owner: base_de_datos_bootcamp_user
 --
@@ -972,7 +907,7 @@ SELECT pg_catalog.setval('public.verticales_id_vertical_seq', 2, true);
 
 
 --
--- TOC entry 3283 (class 2606 OID 16438)
+-- TOC entry 3277 (class 2606 OID 16438)
 -- Name: campus campus_nombre_campus_key; Type: CONSTRAINT; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -981,7 +916,7 @@ ALTER TABLE ONLY public.campus
 
 
 --
--- TOC entry 3285 (class 2606 OID 16436)
+-- TOC entry 3279 (class 2606 OID 16436)
 -- Name: campus campus_pkey; Type: CONSTRAINT; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -990,7 +925,7 @@ ALTER TABLE ONLY public.campus
 
 
 --
--- TOC entry 3305 (class 2606 OID 16525)
+-- TOC entry 3295 (class 2606 OID 16525)
 -- Name: estudiantes estudiantes_email_key; Type: CONSTRAINT; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -999,7 +934,7 @@ ALTER TABLE ONLY public.estudiantes
 
 
 --
--- TOC entry 3307 (class 2606 OID 16523)
+-- TOC entry 3297 (class 2606 OID 16523)
 -- Name: estudiantes estudiantes_pkey; Type: CONSTRAINT; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -1008,7 +943,7 @@ ALTER TABLE ONLY public.estudiantes
 
 
 --
--- TOC entry 3291 (class 2606 OID 16460)
+-- TOC entry 3285 (class 2606 OID 16460)
 -- Name: modalidades modalidades_nombre_modalidad_key; Type: CONSTRAINT; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -1017,7 +952,7 @@ ALTER TABLE ONLY public.modalidades
 
 
 --
--- TOC entry 3293 (class 2606 OID 16458)
+-- TOC entry 3287 (class 2606 OID 16458)
 -- Name: modalidades modalidades_pkey; Type: CONSTRAINT; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -1026,7 +961,7 @@ ALTER TABLE ONLY public.modalidades
 
 
 --
--- TOC entry 3313 (class 2606 OID 16563)
+-- TOC entry 3303 (class 2606 OID 16563)
 -- Name: notas notas_id_estudiante_id_proyecto_key; Type: CONSTRAINT; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -1035,7 +970,7 @@ ALTER TABLE ONLY public.notas
 
 
 --
--- TOC entry 3315 (class 2606 OID 16561)
+-- TOC entry 3305 (class 2606 OID 16561)
 -- Name: notas notas_pkey; Type: CONSTRAINT; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -1044,7 +979,7 @@ ALTER TABLE ONLY public.notas
 
 
 --
--- TOC entry 3299 (class 2606 OID 16482)
+-- TOC entry 3289 (class 2606 OID 16482)
 -- Name: profesores profesores_pkey; Type: CONSTRAINT; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -1053,7 +988,7 @@ ALTER TABLE ONLY public.profesores
 
 
 --
--- TOC entry 3301 (class 2606 OID 16508)
+-- TOC entry 3291 (class 2606 OID 16508)
 -- Name: promociones promociones_nombre_promocion_key; Type: CONSTRAINT; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -1062,7 +997,7 @@ ALTER TABLE ONLY public.promociones
 
 
 --
--- TOC entry 3303 (class 2606 OID 16506)
+-- TOC entry 3293 (class 2606 OID 16506)
 -- Name: promociones promociones_pkey; Type: CONSTRAINT; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -1071,7 +1006,7 @@ ALTER TABLE ONLY public.promociones
 
 
 --
--- TOC entry 3309 (class 2606 OID 16546)
+-- TOC entry 3299 (class 2606 OID 16546)
 -- Name: proyectos proyectos_nombre_proyecto_key; Type: CONSTRAINT; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -1080,7 +1015,7 @@ ALTER TABLE ONLY public.proyectos
 
 
 --
--- TOC entry 3311 (class 2606 OID 16544)
+-- TOC entry 3301 (class 2606 OID 16544)
 -- Name: proyectos proyectos_pkey; Type: CONSTRAINT; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -1089,25 +1024,7 @@ ALTER TABLE ONLY public.proyectos
 
 
 --
--- TOC entry 3295 (class 2606 OID 16472)
--- Name: roles roles_nombre_rol_key; Type: CONSTRAINT; Schema: public; Owner: base_de_datos_bootcamp_user
---
-
-ALTER TABLE ONLY public.roles
-    ADD CONSTRAINT roles_nombre_rol_key UNIQUE (nombre_rol);
-
-
---
--- TOC entry 3297 (class 2606 OID 16470)
--- Name: roles roles_pkey; Type: CONSTRAINT; Schema: public; Owner: base_de_datos_bootcamp_user
---
-
-ALTER TABLE ONLY public.roles
-    ADD CONSTRAINT roles_pkey PRIMARY KEY (id_rol);
-
-
---
--- TOC entry 3287 (class 2606 OID 16449)
+-- TOC entry 3281 (class 2606 OID 16449)
 -- Name: verticales verticales_nombre_vertical_key; Type: CONSTRAINT; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -1116,7 +1033,7 @@ ALTER TABLE ONLY public.verticales
 
 
 --
--- TOC entry 3289 (class 2606 OID 16447)
+-- TOC entry 3283 (class 2606 OID 16447)
 -- Name: verticales verticales_pkey; Type: CONSTRAINT; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -1125,7 +1042,7 @@ ALTER TABLE ONLY public.verticales
 
 
 --
--- TOC entry 3319 (class 2606 OID 16531)
+-- TOC entry 3309 (class 2606 OID 16531)
 -- Name: estudiantes estudiantes_id_campus_fkey; Type: FK CONSTRAINT; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -1134,7 +1051,7 @@ ALTER TABLE ONLY public.estudiantes
 
 
 --
--- TOC entry 3320 (class 2606 OID 16526)
+-- TOC entry 3310 (class 2606 OID 16526)
 -- Name: estudiantes estudiantes_id_promocion_fkey; Type: FK CONSTRAINT; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -1143,7 +1060,7 @@ ALTER TABLE ONLY public.estudiantes
 
 
 --
--- TOC entry 3322 (class 2606 OID 16564)
+-- TOC entry 3312 (class 2606 OID 16564)
 -- Name: notas notas_id_estudiante_fkey; Type: FK CONSTRAINT; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -1152,7 +1069,7 @@ ALTER TABLE ONLY public.notas
 
 
 --
--- TOC entry 3323 (class 2606 OID 16569)
+-- TOC entry 3313 (class 2606 OID 16569)
 -- Name: notas notas_id_proyecto_fkey; Type: FK CONSTRAINT; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -1161,7 +1078,7 @@ ALTER TABLE ONLY public.notas
 
 
 --
--- TOC entry 3316 (class 2606 OID 16488)
+-- TOC entry 3306 (class 2606 OID 16488)
 -- Name: profesores profesores_id_campus_fkey; Type: FK CONSTRAINT; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -1170,7 +1087,7 @@ ALTER TABLE ONLY public.profesores
 
 
 --
--- TOC entry 3317 (class 2606 OID 16493)
+-- TOC entry 3307 (class 2606 OID 16493)
 -- Name: profesores profesores_id_modalidad_fkey; Type: FK CONSTRAINT; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -1179,7 +1096,7 @@ ALTER TABLE ONLY public.profesores
 
 
 --
--- TOC entry 3318 (class 2606 OID 16483)
+-- TOC entry 3308 (class 2606 OID 16483)
 -- Name: profesores profesores_id_vertical_fkey; Type: FK CONSTRAINT; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -1188,7 +1105,7 @@ ALTER TABLE ONLY public.profesores
 
 
 --
--- TOC entry 3321 (class 2606 OID 16547)
+-- TOC entry 3311 (class 2606 OID 16547)
 -- Name: proyectos proyectos_id_vertical_fkey; Type: FK CONSTRAINT; Schema: public; Owner: base_de_datos_bootcamp_user
 --
 
@@ -1197,7 +1114,7 @@ ALTER TABLE ONLY public.proyectos
 
 
 --
--- TOC entry 2097 (class 826 OID 16391)
+-- TOC entry 2092 (class 826 OID 16391)
 -- Name: DEFAULT PRIVILEGES FOR SEQUENCES; Type: DEFAULT ACL; Schema: -; Owner: postgres
 --
 
@@ -1205,7 +1122,7 @@ ALTER DEFAULT PRIVILEGES FOR ROLE postgres GRANT ALL ON SEQUENCES TO base_de_dat
 
 
 --
--- TOC entry 2099 (class 826 OID 16393)
+-- TOC entry 2094 (class 826 OID 16393)
 -- Name: DEFAULT PRIVILEGES FOR TYPES; Type: DEFAULT ACL; Schema: -; Owner: postgres
 --
 
@@ -1213,7 +1130,7 @@ ALTER DEFAULT PRIVILEGES FOR ROLE postgres GRANT ALL ON TYPES TO base_de_datos_b
 
 
 --
--- TOC entry 2098 (class 826 OID 16392)
+-- TOC entry 2093 (class 826 OID 16392)
 -- Name: DEFAULT PRIVILEGES FOR FUNCTIONS; Type: DEFAULT ACL; Schema: -; Owner: postgres
 --
 
@@ -1221,18 +1138,18 @@ ALTER DEFAULT PRIVILEGES FOR ROLE postgres GRANT ALL ON FUNCTIONS TO base_de_dat
 
 
 --
--- TOC entry 2096 (class 826 OID 16390)
+-- TOC entry 2091 (class 826 OID 16390)
 -- Name: DEFAULT PRIVILEGES FOR TABLES; Type: DEFAULT ACL; Schema: -; Owner: postgres
 --
 
 ALTER DEFAULT PRIVILEGES FOR ROLE postgres GRANT ALL ON TABLES TO base_de_datos_bootcamp_user;
 
 
--- Completed on 2025-11-20 23:47:54
+-- Completed on 2025-11-21 01:17:08
 
 --
 -- PostgreSQL database dump complete
 --
 
-\unrestrict KtJyWZAshcxdrDYaEIeFlE9iWilecoVvL0tASVvgy3JhdpKIBWxxx8sewad0Pp3
+\unrestrict QcazxTcxNlJkNxE1BVUenbf9kaZv4Uy6eGvhmt81URK58bFj0wNfSSvNE1evGKX
 

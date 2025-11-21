@@ -248,17 +248,6 @@ INSERT INTO public.MODALIDADES (nombre_modalidad) VALUES
 ('Presencial'),
 ('Online')
 
--- ROLES
-CREATE TABLE public.ROLES (
-    id_rol SERIAL PRIMARY KEY,
-    nombre_rol VARCHAR(50) UNIQUE NOT NULL)
-
--- Insertar Roles
-INSERT INTO public.ROLES (nombre_rol)
-VALUES
-('TA'),
-('LI')
-
 -- PROMOCIONES
 CREATE TABLE public.PROMOCIONES (
     id_promocion SERIAL PRIMARY KEY,
