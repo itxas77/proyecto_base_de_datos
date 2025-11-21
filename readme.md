@@ -59,15 +59,9 @@ Promociones
 
 Campus
 
-Roles
-
 Modalidades
 
 Verticales
-
-✔ Tabla puente:
-
-Notas → relaciona Estudiantes con Proyectos (N:M)
 
 
 🧮 3. Normalización
